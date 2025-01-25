@@ -36,7 +36,7 @@ app.use('/', authentication, (req, res, next) => {
 
         history.add({
           bandwidthUsage: total,
-          url: req.url
+          url: req.hostname
         })
       }
     }
