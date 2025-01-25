@@ -26,11 +26,11 @@ Before running the project, ensure you have the following installed:
 
 You must set the following environment variables before running the project:
 
-| Variable        | Description                    | Default Value |
-|-----------------|--------------------------------|---------------|
-| `PROXY_PORT`    | The port where the proxy runs. | `8081`        |
-| `PROXY_USER`    | Username for proxy access.     | `admin`       |
-| `PROXY_PASS`    | Password for proxy access.     | `1234`        |
+| Variable            | Description                    | Default Value |
+|---------------------|--------------------------------|---------------|
+| `PROXY_PORT`        | The port where the proxy runs. | `8081`        |
+| `PROXY_USER`        | Username for proxy access.     | `admin`       |
+| `PROXY_PASSWORD`    | Password for proxy access.     | `1234`        |
 
 Create a `.env` file in the root directory of the project and define the variables as follows:
 
